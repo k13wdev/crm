@@ -1,0 +1,11 @@
+{
+  "name": "@awesome/crm",
+  "version": "0.0.0",
+  "scripts": {
+    "start:all": "pnpm  --filter \"./apps/**\" run start"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
